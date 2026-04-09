@@ -361,9 +361,8 @@ svg {
   align-items: center;
   gap: 8px;
   border: 2px solid var(--accent__color);
-  
+  padding-inline: 12px;
   min-block-size: 55px;
-
 }
 
 .close-button:hover .button__text {
@@ -404,6 +403,7 @@ dialog::backdrop {
   grid-column: 1;
   width: 39px;
   height: 39px;
+  margin-top: 10px;
 }
 
 .dialog__text {
@@ -459,6 +459,7 @@ dialog::backdrop {
     min-inline-size: 81.6%;
     justify-content: center;
   }
+
   .save__button__image {
     width: 28px;
     height: 28px;
@@ -472,4 +473,5 @@ dialog::backdrop {
     max-inline-size: clamp(68.53vw, 257px, 68.54vw);
     padding: 11px 114px;
   }
+
 }
