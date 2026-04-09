@@ -1,1 +1,1 @@
-https://github.com/sosiskaba6y/zakrivayuschiy-teg-ad
+https://github.com/sosiskaba6y/zakrivayuschiy-teg-ad https://sosiskaba6y.github.io/zakrivayuschiy-teg-ad/
