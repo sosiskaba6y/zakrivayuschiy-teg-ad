@@ -112,19 +112,23 @@
 }
 
 .filter__saturate {
-  filter: saturate(120%);
+  filter: saturate(150%);
 }
 
 .filter__brightness {
   filter: brightness(90%);
 }
 
-.filter__greyscale__blur {
-  filter: grayscale(100%) blur(3px);
+.filter__blur {
+  filter: blur(3px);
+}
+
+.filter__sepia__blur {
+  filter: sepia(50%) blur(3px);
 }
 
 .card__image {
-  object-fit: cover;
+  /* object-fit: cover; */
   object-position: right;
   box-sizing: border-box;
   border-bottom: 2px solid var(--accent__color);
